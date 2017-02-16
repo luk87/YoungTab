@@ -7,7 +7,7 @@
 YoungTab is a mathematical tool to compute the dimension of irreducible representations of the classical Lie algebras A, B, C, D, described by Young tableaux.
 
 ## Installation
-YoungTab is a linux 64 application that could be directly downloaded and used by placing the bin file in a folder containing another folder with name glade containing in turn the logo and the glade file. 
+YoungTab is a linux 64 application that could be directly downloaded and used by placing the binary file in a folder containing another folder with name glade containing in turn the logo and the glade file. 
 
 
 ## Usage
