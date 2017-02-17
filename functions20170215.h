@@ -20,31 +20,20 @@
   
 }
  
- 
- 
- 
- 
- 
- 
-  void func_A (GtkWidget *name, gpointer user_data)
+ void func_A (GtkWidget *name, gpointer user_data)
 {
-   
-  
-  
+     
   tableaux *ptr;
   ptr= (tableaux *) user_data;
   
   char str_count[10] = {0};
-  
   
   if(ptr->control == FALSE){
     
     gtk_label_set_text(GTK_LABEL(ptr->label1), "no" );
     goto jump1;
   };
-  
-  
-  
+ 
   ptr->n=gtk_combo_box_get_active (GTK_COMBO_BOX(ptr->combo1));
   
   int n=ptr->n+1;
@@ -305,12 +294,6 @@ hook[i][j]=ptr->cellinrow[i]+ptr->cellincolumn[j]-i-j-1;
 };
 
 
-
-
-
-
-
-
 rvalue=(int **)malloc(nrow*sizeof(int *));/*righe*/  
   for(i=0; i<nrow; ++i){ 
     rvalue[i]=(int *) malloc(ncolumn*sizeof(int));/*colonne*/
@@ -497,11 +480,6 @@ hook[i][j]=ptr->cellinrow[i]+ptr->cellincolumn[j]-i-j-1;
 //printf("%d\n",hook[i][j]);
 };
 };
-
-
-
-
-
 
 
 rvalue=(int **)malloc(nrow*sizeof(int *));/*righe*/  
