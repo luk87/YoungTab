@@ -4,7 +4,7 @@
 ## Summary
 
 
-YoungTab is a mathematical tool to compute the dimension of irreducible representations of the classical Lie algebras A, B, C, D, described by Young tableaux. It is useful in finding the representation associated to irreducible tensors of classical lie algebras, since tensor with given symmetries could be represented by Young tableaux. It has wide range of application in theoretical physics since group theoretical structure are obiquitus in different contexts, form condensed matter to high energy physics.  
+YoungTab is a mathematical tool to compute the dimension of irreducible representations of the classical Lie algebras A, B, C, D, described by Young tableaux. It is useful in finding the representation associated to irreducible tensors of classical Lie algebras, since tensor with given symmetries could be represented by Young tableaux. It has a wide range of application in theoretical physics since group theoretical structures are obiquitus in different contexts, form condensed matter to high energy physics.  
 
 
 
