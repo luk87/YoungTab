@@ -1,6 +1,5 @@
 
-//il crash è dovuto alla funzione che chiama button press e alla funzione draw draw_cell
-//valgrind --leak-check=yes
+
 
 #include <gtk/gtk.h>
 #include <malloc.h>
