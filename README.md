@@ -1,5 +1,5 @@
 
-#YoungTab
+#YoungTab v1.1
 
 ## Summary
 YoungTab is a mathematical tool to compute the dimension of irreducible representations of the classical Lie algebras A, B, C, D, described by Young tableaux. In particular for any Young tableau drawn in the drawing area and selected rank it will list the dimension of the irreducible representation associated to it for the four classical Lie algebras. Due to the correspondence between Young tableaux and irreducible tensors, it is useful in finding the representation associated to tensors carrying indices in any of the Lie algebras mentioned above. Although it is trivial to compute the dimension of irreps for the A-type algebra it is not completely trivial to impose irreducible conditions on tensors when one is dealing with the other classical Lie algebras. In these cases with YoungTab one could immediately compute the dimension of the representation codified in the tensor since it is trivial to translate tensorial indices in Young tableaux. YoungTab has a wide range of application, from pure math to theoretical physics, where group theoretical structures and tensors are ubiquitous.
@@ -9,7 +9,5 @@ YoungTab is a program written in C code thought for linux 64 and the GUI is base
 
 
 ## Usage
-The user could select the rank of the algebra from the list menu. On the display there are four different labels, under the column "algebra", for the four classical Lie algebras. The Young tableaux could be drawn on the blackboard, the black drawing area. Any left mouse click adds a cell justifying it automatically to the left. The dimension of the representations described by the Young tableaux appearing on the blackboard, is sketched near the corresponding algebra in the column "Dim". If the tableau does not respect the rules required to be identified with a legitimate Lie algebra irreducible representation (non increasing number of cells in each row from the top to the bottom and non increasing number of cells in each column from the left to the right) the output Dim will say "no". The tableaux could be deleted by a right mouse click on the blackboard.
-
-
+The user could select the rank of the algebra from the list menu. On the display there are four different labels, under the column "algebra", for the four classical Lie algebras. The Young tableaux could be drawn on the blackboard, the black drawing area. Any left mouse click adds a cell justifying it automatically to the left. The dimension of the representations described by the Young tableaux appearing on the blackboard, is sketched near the corresponding algebra in the column "Dim". If the tableau does not respect the rules required to be identified with a legitimate Lie algebra irreducible representation (non increasing number of cells in each row from the top to the bottom and non increasing number of cells in each column from the left to the right) the output Dim will say "no". If the tableux exceeds the computational power it says "over". The tableaux could be deleted by a right mouse click on the blackboard.
 
