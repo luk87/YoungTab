@@ -35,6 +35,7 @@ GtkWidget *g_button1;
 GtkWidget *g_area;
 GtkWidget *g_image2;
 
+//construction of the drawing area
 static cairo_surface_t *surface = NULL;
 
 
@@ -123,9 +124,6 @@ static void draw_cell (GtkWidget *widget,
     ptr->ncell[k][ny+1]=88;
     xmod=(k+2)*size;
   
-    
- 
-    
  
 ptr->control=TRUE;
 for(i=0;i<tabside;i++){
@@ -191,7 +189,7 @@ int nrow=ptr->cellincolumn[0];
 //   else;};
 
   
-  
+  //drawing area
   cr = cairo_create (surface);
   cairo_set_source_rgb (cr, 0,0,0);
   cairo_rectangle (cr, xmod-size, ymod-size, size, size);
@@ -218,7 +216,7 @@ int nrow=ptr->cellincolumn[0];
   return ;
 }
 
-// define action connected to event: mouse click
+// action connected to event: mouse click
 static gboolean button_press_event_cb (GtkWidget  *widget, 
                                        GdkEventButton *event,   
                                        gpointer   user_data)
@@ -278,6 +276,7 @@ int main(int argc, char *argv[])
     
     gtk_init(&argc, &argv);
  
+//Glade file
     builder = gtk_builder_new();
     gtk_builder_add_from_file (builder, "glade/YoungTab20161006.glade", NULL);
  
@@ -317,7 +316,7 @@ int main(int argc, char *argv[])
     window1 = GTK_WIDGET(gtk_builder_get_object(builder, "window1"));
       
   
-  
+  // structure for the tableaux
   struct tableaux tab;
     
   tab.label1=g_dimA;
@@ -403,7 +402,7 @@ int main(int argc, char *argv[])
     return 0;
 }
 
-
+// function writing the rank
 void user_function2 ()
 {
   
