@@ -14,4 +14,4 @@ The user could select the rank of the algebra from the list menu. On the display
 ## Example
 As an example we can try to compute the independent components of the tensor T<sub>MN,P</sub> where MN are antisymmetric indices and are symmetrized with respect to P and all the indices belong to a rank 4 algebra. This tensor is represented by a Young tableaux of type [2,1] namely with two cells in the first row and one cell in the second row. Depending on the type of algebra the indices belong, different irreducibility conditions should be imposed resulting in a different number of indpendent components. Drawing the table it is immediate to get the result for A<sub>4</sub> (SL(5)), B<sub>4</sub> (SO(9)), C<sub>4</sub> (Sp(8)) and D<sub>4</sub> (SO(8)).
 
-![YoungTab example](https://github.com/luk87/YoungTab/blob/master/YTimage.png)
+![YoungTab example](https://github.com/luk87/YoungTab/blob/master/YTimage.png) 
