@@ -38,6 +38,15 @@ As an example we can try to compute the independent components of the tensor T<s
 
 ![YoungTab example](https://github.com/luk87/YoungTab/blob/master/YTimage.png)
 
+### Test
+
+Taking the Young tableuax [2,1] its dimension for the rank n classical Lie algebras should give the numerical value for the well known formulae
+
+* A<sub>n</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    n(n+2)(n+1)/3
+* B<sub>n</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    (2n+1)(n<sup>2</sup>-1)/3
+* C<sub>n</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    8n(n<sup>2</sup>-1)/3
+* D<sub>n</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    8n(n<sup>2</sup>-1)/3.
+
 
 
 
