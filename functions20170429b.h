@@ -1,6 +1,7 @@
-//We define the four functions computing the dimension of the tableaux, one for each classical Lie algebra, func_A, func_B, func_C and func _D  
-//For any function  the matrices r and h define the content of the different cells of the tableuax. The float r and h are the product of 
-//all the elements in the cell, h is given by the hook rule.
+//We define the four functions computing the dimension of the tableaux, one for each classical Lie algebra, func_A, func_B, 
+//func_C and func _D  
+//For any function  the matrices r and h define the content of the different cells of the tableuax. 
+//The floats r and h are the product of all the elements in the cell, h is given by the hook rule.
     
  void rank_function (GtkWidget *one,  gpointer user_data)
 {  
