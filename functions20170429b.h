@@ -1,5 +1,6 @@
-//We define the four functions computing the dimension of the tableaux, one for each classical Lie algebra  
-    
+//We define the four functions computing the dimension of the tableaux, one for each classical Lie algebra, func_A, func_B, func_C and func _D  
+//For any function  the matrices r and h define the content of the different cells of the tableuax. The float r and h are the product of 
+//all the elements in the cell, h is given by the hook rule.
     
  void rank_function (GtkWidget *one,  gpointer user_data)
 {  
@@ -89,9 +90,9 @@ j=0;
 i=0;
 
 
-  hook=(int **)malloc(nrow*sizeof(int *));/*righe*/  
+  hook=(int **)malloc(nrow*sizeof(int *));/*rows*/  
   for(i=0; i<nrow; ++i){ 
-    hook[i]=(int *) malloc(ptr->cellinrow[i]*sizeof(int));/*colonne*/
+    hook[i]=(int *) malloc(ptr->cellinrow[i]*sizeof(int));/*columns*/
    };
 
 
@@ -104,9 +105,9 @@ hook[i][j]=ptr->cellinrow[i]+ptr->cellincolumn[j]-i-j-1;
 };
 
 
-rvalue=(int **) malloc(nrow*sizeof(int *));/*righe*/  
+rvalue=(int **) malloc(nrow*sizeof(int *));/*rows*/  
   for(i=0; i<nrow; ++i){ 
-    rvalue[i]=(int *) malloc(ncolumn*sizeof(int));/*colonne*/
+    rvalue[i]=(int *) malloc(ncolumn*sizeof(int));/*columns*/
    };
    
 for(i=0; i<nrow; ++i){
@@ -304,9 +305,9 @@ j=0;
 i=0;
 
 
-hook=(int **)malloc(nrow*sizeof(int *));/*righe*/  
+hook=(int **)malloc(nrow*sizeof(int *));/*rows*/  
   for(i=0; i<nrow; ++i){ 
-    hook[i]=(int *) malloc(ptr->cellinrow[i]*sizeof(int ));/*colonne*/
+    hook[i]=(int *) malloc(ptr->cellinrow[i]*sizeof(int ));/*columns*/
    };
 
 
@@ -325,9 +326,9 @@ hook[i][j]=ptr->cellinrow[i]+ptr->cellincolumn[j]-i-j-1;
 
 
 
-rvalue=(int **)malloc(nrow*sizeof(int *));/*righe*/  
+rvalue=(int **)malloc(nrow*sizeof(int *));/*rows*/  
   for(i=0; i<nrow; ++i){ 
-    rvalue[i]=(int *) malloc(ncolumn*sizeof(int));/*colonne*/
+    rvalue[i]=(int *) malloc(ncolumn*sizeof(int));/*columns*/
    };
    
 for(i=0; i<nrow; ++i){
@@ -515,9 +516,9 @@ j=0;
 i=0;
 
 
-hook=(int **)malloc(nrow*sizeof(int *));/*righe*/  
+hook=(int **)malloc(nrow*sizeof(int *));/*rows*/  
   for(i=0; i<nrow; ++i){ 
-    hook[i]=(int *) malloc(ptr->cellinrow[i]*sizeof(int));/*colonne*/
+    hook[i]=(int *) malloc(ptr->cellinrow[i]*sizeof(int));/*columns*/
    };
 
 
@@ -535,9 +536,9 @@ hook[i][j]=ptr->cellinrow[i]+ptr->cellincolumn[j]-i-j-1;
 
 
 
-rvalue=(int **)malloc(nrow*sizeof(int *));/*righe*/  
+rvalue=(int **)malloc(nrow*sizeof(int *));/*rows*/  
   for(i=0; i<nrow; ++i){ 
-    rvalue[i]=(int *) malloc(ncolumn*sizeof(int ));/*colonne*/
+    rvalue[i]=(int *) malloc(ncolumn*sizeof(int ));/*columns*/
    };
    
 for(i=0; i<nrow; ++i){
@@ -732,9 +733,9 @@ j=0;
 i=0;
 
 
-hook=(int **)malloc(nrow*sizeof(int *));/*righe*/  
+hook=(int **)malloc(nrow*sizeof(int *));/*rows*/  
   for(i=0; i<nrow; ++i){ 
-    hook[i]=(int *) malloc(ptr->cellinrow[i]*sizeof(int));/*colonne*/
+    hook[i]=(int *) malloc(ptr->cellinrow[i]*sizeof(int));/*columns*/
    };
 
 
@@ -754,9 +755,9 @@ i=0;
 j=0;
 
 
-rvalue=(int **)malloc(nrow*sizeof(int *));/*righe*/  
+rvalue=(int **)malloc(nrow*sizeof(int *));/*rows*/  
   for(i=0; i<nrow; ++i){ 
-    rvalue[i]=(int *) malloc(ncolumn*sizeof(int));/*colonne*/
+    rvalue[i]=(int *) malloc(ncolumn*sizeof(int));/*columns*/
    };
    
 for(i=0; i<nrow; ++i){
