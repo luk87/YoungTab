@@ -27,4 +27,4 @@ Taking the Young tableuax [2,1] its dimension for the rank n classical Lie algeb
 
 ## Contributing
 
-Any [comment or contribution](https://github.com/luk87/YoungTab/pulls) is welcome. Please use the [issue page](https://github.com/luk87/YoungTab/issues) to report bugs.
+Any [comment](https://github.com/luk87/YoungTab/issues) or [contribution](https://github.com/luk87/YoungTab/pulls) is welcome. Please use the [issue page](https://github.com/luk87/YoungTab/issues) to report bugs.
