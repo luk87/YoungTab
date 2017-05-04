@@ -24,3 +24,7 @@ Taking the Young tableuax [2,1] its dimension for the rank n classical Lie algeb
 * B<sub>n</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    (2n+3)(4n<sup>2</sup>-1)/3
 * C<sub>n</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    8n(n<sup>2</sup>-1)/3
 * D<sub>n</sub> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    8n(n<sup>2</sup>-1)/3.
+
+## Contributing
+
+Any [comment or contribution](https://github.com/luk87/YoungTab/pulls) is welcome. Please use the [issue page](https://github.com/luk87/YoungTab/issues) to report bugs.
