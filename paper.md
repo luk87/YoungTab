@@ -1,4 +1,3 @@
-
 ---
 title: 'YoungTab'
 tags:
@@ -11,16 +10,13 @@ tags:
   - irrep
   - Physics
   - math
-
-
 authors:
 - affiliation: Leibniz Universitaet Hannover
 - name: Luca Romano  
   orcid: 0000-0001-9033-1345
-
-
 date: 15 February 2017
 bibliography: bibliography.bib
+output: pdf_document
 ---
 
 # Summary
