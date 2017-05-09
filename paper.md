@@ -16,6 +16,8 @@ authors:
   orcid: 0000-0001-9033-1345
 date: 15 February 2017
 bibliography: bibliography.bib
+nocite: | 
+  @YoungTab, @glade, @gtk, @gnome, @2007arXiv0710.4155C
 output: pdf_document
 ---
 
